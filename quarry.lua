@@ -1,5 +1,5 @@
 while true do
-	if ~turtle.down() then
+	if turtle.down() == false then
 		turtle.digDown()
 		term.write(turtle.getFuelLevel())
 	end
