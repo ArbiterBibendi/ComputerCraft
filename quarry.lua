@@ -11,4 +11,5 @@ end
 
 while y < 0 do
 	turtle.up()
+	y = y + 1
 end
